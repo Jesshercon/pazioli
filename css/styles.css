@@ -1,3 +1,35 @@
+.text-heading {
+  font-size: 56px;
+  font-family: "Abril Fatface", cursive;
+  letter-spacing: 8px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.text-subheading {
+  font-size: 32px;
+  font-family: "Raleway", sans-serif;
+}
+
+.text-paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  color: #858585;
+}
+
+.text-link {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+}
+
+.text-nav {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+}
+
 .header__main-father--black {
   display: flex;
   justify-content: space-between;
@@ -22,4 +54,13 @@
   background-color: black;
   color: white;
   border-radius: 10px;
+}
+
+.text__main-pazioli-institute--main {
+  text-align: center;
+  flex-direction: column;
+  padding-top: 20px;
+}
+.text__main-pazioli-institute--main .text__secondary--art {
+  letter-spacing: 3px;
 }/*# sourceMappingURL=styles.css.map */

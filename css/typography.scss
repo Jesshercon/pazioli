@@ -1,0 +1,33 @@
+.text-heading {
+  font-size: 56px;
+  font-family: "Abril Fatface", cursive;
+  letter-spacing: 8px;
+  font-weight: 400;
+  margin: 0;
+}
+.text-subheading {
+  font-size: 32px;
+  font-family: "Raleway", sans-serif;
+}
+
+.text-paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  color: #858585;
+}
+
+.text-link {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+}
+.text-nav {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+}
+
+//  @media
+// .text-heading -> ? 400, 32px
+// .text-subheading -> ? 400, 24px

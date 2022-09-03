@@ -1,4 +1,5 @@
 @import "vars";
+@import "typography.scss";
 
 .header__main-father--black {
   display: flex;
@@ -22,5 +23,14 @@
       color: white;
       border-radius: 10px;
     }
+  }
+}
+
+.text__main-pazioli-institute--main {
+  text-align: center;
+  flex-direction: column;
+  padding-top: 20px;
+  .text__secondary--art {
+    letter-spacing: 3px;
   }
 }
