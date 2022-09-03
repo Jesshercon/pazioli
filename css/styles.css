@@ -94,21 +94,31 @@
 
 .main__image-center {
   display: flex;
+  position: relative;
   align-items: center;
   justify-content: center;
   padding-top: 50px;
 }
 .main__image-center .icon__social-media-main {
+  position: absolute;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
   flex-direction: column;
   margin: none;
+  bottom: 80px;
+  right: 30px;
+}
+.main__image-center .icon__social-media-main .icon__social-media-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin-top: 15px;
 }
 .main__image-center .icon__social-media-main img {
-  border: 1px solid black;
-  border-radius: 40px;
   height: 20px;
-  padding: 15px;
-  margin: 10px;
 }/*# sourceMappingURL=styles.css.map */
