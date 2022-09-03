@@ -60,3 +60,25 @@
   color: black;
   margin: 0 10px;
 }
+
+.main__image-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  .icon__social-media-main {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    margin: none;
+    img {
+      // display: block;
+      border: 1px solid black;
+      border-radius: 40px;
+      height: 20px;
+      padding: 15px;
+      margin: 10px;
+    }
+  }
+}
