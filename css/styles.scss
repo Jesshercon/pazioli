@@ -1,0 +1,9 @@
+@import "vars";
+
+.header__block-main--black{
+  display: flex;
+  justify-content: flex-end;
+ background-color: red($color: #000000);
+ width: 100%;
+ border-radius: 100px;
+ }
