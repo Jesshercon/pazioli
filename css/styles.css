@@ -1,7 +1,25 @@
+.header__main-father--black {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+}
+
 .header__block-main--black {
   display: flex;
-  justify-content: flex-end;
-  background-color: 0;
-  width: 100%;
-  border-radius: 100px;
+  align-items: center;
+}
+.header__block-main--black .header__list--right {
+  display: flex;
+  list-style: none;
+}
+.header__block-main--black .header__list--right .li__item {
+  margin-left: 20px;
+  padding: 10px 15px;
+  letter-spacing: 0.1em;
+}
+.header__block-main--black .header__list--right .li__item:hover {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
 }/*# sourceMappingURL=styles.css.map */
