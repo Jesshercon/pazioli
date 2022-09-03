@@ -33,4 +33,25 @@
   .text__secondary--art {
     letter-spacing: 3px;
   }
+  .text__h1 {
+    margin-bottom: 30px;
+  }
+}
+
+.button {
+  padding: 5px 20px;
+  border-radius: 8px;
+  letter-spacing: 2px;
+}
+.button__curses--black {
+  background-color: black;
+  color: white;
+  margin: 0 10px;
+}
+
+.button__acquire--border {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  margin: 0 10px;
 }
