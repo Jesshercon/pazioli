@@ -1,7 +1,88 @@
+.text-heading {
+  font-size: 56px;
+  font-family: "Abril Fatface", cursive;
+  letter-spacing: 8px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.text-subheading {
+  font-size: 32px;
+  font-family: "Raleway", sans-serif;
+}
+
+.text-paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  color: #858585;
+}
+
+.text-link {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+}
+
+.text-nav {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+}
+
+.header__main-father--black {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+}
+
 .header__block-main--black {
   display: flex;
-  justify-content: flex-end;
-  background-color: 0;
-  width: 100%;
-  border-radius: 100px;
+  align-items: center;
+}
+.header__block-main--black .header__list--right {
+  display: flex;
+  list-style: none;
+}
+.header__block-main--black .header__list--right .li__item {
+  margin-left: 20px;
+  padding: 10px 15px;
+  letter-spacing: 0.1em;
+}
+.header__block-main--black .header__list--right .li__item:hover {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+
+.text__main-pazioli-institute--main {
+  text-align: center;
+  flex-direction: column;
+  padding-top: 20px;
+}
+.text__main-pazioli-institute--main .text__secondary--art {
+  letter-spacing: 3px;
+}
+.text__main-pazioli-institute--main .text__h1 {
+  margin-bottom: 30px;
+}
+
+.button {
+  padding: 5px 20px;
+  border-radius: 8px;
+  letter-spacing: 2px;
+}
+
+.button__curses--black {
+  background-color: black;
+  color: white;
+  margin: 0 10px;
+}
+
+.button__acquire--border {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  margin: 0 10px;
 }/*# sourceMappingURL=styles.css.map */
