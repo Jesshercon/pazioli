@@ -10,9 +10,11 @@
 .header__block-main--black {
   display: flex;
   align-items: center;
+
   .header__list--right {
-    display: flex;
+    // display: flex;
     list-style: none;
+    display: none;
     .li__item {
       margin-left: 20px;
       padding: 10px 15px;
@@ -67,6 +69,9 @@
   align-items: center;
   justify-content: center;
   padding-top: 50px;
+  .piano__main--center {
+    max-width: 100%;
+  }
   .icon__social-media-main {
     position: absolute;
     display: flex;
@@ -78,7 +83,7 @@
     right: 30px;
 
     .icon__social-media-item {
-      display: flex;
+      display: none;
       align-items: center;
       justify-content: center;
       width: 50px;
@@ -90,6 +95,22 @@
     img {
       // display: block;
       height: 20px;
+    }
+  }
+}
+
+@media (min-width: 600px) {
+  .header__block-main--black {
+    .header__list--right {
+      display: flex;
+    }
+  }
+
+  .main__image-center {
+    .icon__social-media-main {
+      .icon__social-media-item {
+        display: flex;
+      }
     }
   }
 }
