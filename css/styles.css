@@ -8,7 +8,7 @@
 
 .text-subheading {
   font-size: 24px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Abril Fatface", cursive;
 }
 
 .text-paragraph {
@@ -142,4 +142,101 @@
   .main__image-center .icon__social-media-main .icon__social-media-item {
     display: flex;
   }
+}
+.cards__father--three h1 {
+  text-align: center;
+  margin-top: 150px;
+  letter-spacing: 5px;
+  font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 250px;
+}
+
+.piano__cards--subfather {
+  display: flex;
+  margin: 0 auto;
+  width: 960px;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+.piano__cards--subfather .piano__card {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  max-width: 100%;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+}
+.piano__cards--subfather .piano__card--container {
+  display: flex;
+  justify-content: center;
+}
+.piano__cards--subfather .piano__card--container .piano__card--image {
+  width: 205px;
+  height: 166px;
+  margin-top: -83px;
+}
+.piano__cards--subfather .piano__card-bottom-line {
+  padding-top: 25px;
+  width: 100%;
+}
+.piano__cards--subfather .piano__card--content {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.piano__cards--subfather .piano__card--content .piano__name--left {
+  font-size: 16px;
+}
+.piano__cards--subfather .piano__card--content .piano-description--left {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  padding: 10px 0px;
+  color: black;
+  margin: 0;
+}
+.piano__cards--subfather .piano__card--content .piano-description--left .black-bullet {
+  background-color: black;
+  border-radius: 50%;
+  height: 4px;
+  width: 4px;
+}
+.piano__cards--subfather .piano__card--content .piano-description--left li {
+  display: inline-block;
+  margin-right: 5px;
+}
+.piano__cards--subfather .shopping__bottom--info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.piano__cards--subfather .shopping__bottom--info .price__button--border {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px 15px;
+  margin-right: 10px;
+}
+.piano__cards--subfather .shopping__bottom--info #shopping__cart--black {
+  background-color: black;
+  padding: 5px;
+  border-radius: 5px;
+  width: 20px;
+  height: 20px;
+}
+
+.button__bottom--black {
+  display: flex;
+  justify-content: center;
+}
+.button__bottom--black .button__more--black {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 30px;
+  font-size: 14px;
 }/*# sourceMappingURL=styles.css.map */
