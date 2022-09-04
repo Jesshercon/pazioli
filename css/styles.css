@@ -143,21 +143,26 @@
     display: flex;
   }
 }
-.cards__father--three h1 {
+.cards__father--three .text-subheading {
   text-align: center;
+  margin: 0 auto;
   margin-top: 150px;
   letter-spacing: 5px;
-  font-size: 50px;
   font-weight: 400;
-  margin-bottom: 250px;
+  margin-bottom: 40px;
+  width: 350px;
+  max-width: 100%;
 }
 
 .piano__cards--subfather {
   display: flex;
   margin: 0 auto;
   width: 960px;
+  max-width: 100%;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 150px;
+  flex-direction: column;
 }
 .piano__cards--subfather .piano__card {
   flex-direction: column;
@@ -168,6 +173,7 @@
   background-color: white;
   border-radius: 15px;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+  margin-bottom: 30px;
 }
 .piano__cards--subfather .piano__card--container {
   display: flex;
@@ -176,7 +182,7 @@
 .piano__cards--subfather .piano__card--container .piano__card--image {
   width: 205px;
   height: 166px;
-  margin-top: -83px;
+  margin-top: 15px;
 }
 .piano__cards--subfather .piano__card-bottom-line {
   padding-top: 25px;
@@ -186,11 +192,11 @@
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 28px;
 }
 .piano__cards--subfather .piano__card--content .piano__name--left {
   font-size: 16px;
+  font-family: "Abril Fatface", cursive;
 }
 .piano__cards--subfather .piano__card--content .piano-description--left {
   display: flex;
@@ -232,11 +238,44 @@
 .button__bottom--black {
   display: flex;
   justify-content: center;
+  margin: 0 auto;
+  margin: -140px;
 }
 .button__bottom--black .button__more--black {
   background-color: black;
   color: white;
   border-radius: 10px;
-  padding: 10px 30px;
+  padding: 10px 50px;
   font-size: 14px;
+}
+
+@media (min-width: 600px) {
+  .piano__cards--subfather {
+    flex-direction: row;
+  }
+  .piano__cards--subfather .piano__card {
+    margin-bottom: 0;
+  }
+  .piano__cards--subfather .piano__card .piano__card--container .piano__card--image {
+    margin-top: -83px;
+  }
+}
+@media (min-width: 600px) {
+  .piano__card--content {
+    padding-left: 15x;
+    padding-right: 15px;
+  }
+}
+@media (min-width: 600px) {
+  .cards__father--three .text-subheading {
+    width: 550px;
+    margin-bottom: 250px;
+  }
+}
+@media (min-width: 600px) {
+  .button__bottom--black {
+    display: flex;
+    justify-content: center;
+    margin: 140px;
+  }
 }/*# sourceMappingURL=styles.css.map */
