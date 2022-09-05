@@ -278,4 +278,43 @@
     justify-content: center;
     margin: 140px;
   }
+}
+.div__contact {
+  width: 561px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.div__contact .h1__title {
+  text-align: center;
+  font-family: "Abril Fatface";
+  padding: 20px;
+}
+.div__contact .h1__title .p__context {
+  text-align: center;
+  padding: 20px;
+  color: #000000;
+  text-align: center;
+}
+
+.form__info-store {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.form__info-store .label__Name {
+  width: 106px;
+  height: 36px;
+  left: 248px;
+  top: 2752px;
+}
+.form__info-store .input__name {
+  position: absolute;
+  width: 464px;
+  height: 36px;
+  left: 248px;
+  top: 2798px;
+  border: 1px solid black;
+  border-radius: 4px;
 }/*# sourceMappingURL=styles.css.map */
