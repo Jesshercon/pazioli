@@ -10,9 +10,11 @@
 .header__block-main--black {
   display: flex;
   align-items: center;
+
   .header__list--right {
-    display: flex;
+    // display: flex;
     list-style: none;
+    display: none;
     .li__item {
       margin-left: 20px;
       padding: 10px 15px;
@@ -67,6 +69,9 @@
   align-items: center;
   justify-content: center;
   padding-top: 50px;
+  .piano__main--center {
+    max-width: 100%;
+  }
   .icon__social-media-main {
     position: absolute;
     display: flex;
@@ -78,7 +83,7 @@
     right: 30px;
 
     .icon__social-media-item {
-      display: flex;
+      display: none;
       align-items: center;
       justify-content: center;
       width: 50px;
@@ -225,3 +230,257 @@
 //   }
 // }
 
+@media (min-width: 600px) {
+  .header__block-main--black {
+    .header__list--right {
+      display: flex;
+    }
+  }
+
+  .main__image-center {
+    .icon__social-media-main {
+      .icon__social-media-item {
+        display: flex;
+      }
+    }
+  }
+}
+
+// Piano cards styles
+
+.cards__father--three {
+  .text-subheading {
+    // display: flex;
+    // justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 150px;
+    letter-spacing: 5px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    width: 350px;
+    max-width: 100%;
+  }
+}
+
+.piano__cards--subfather {
+  display: flex;
+  margin: 0 auto;
+  width: 960px;
+  max-width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 150px;
+  flex-direction: column;
+  .piano__card {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    max-width: 100%;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 40px rgba($color: #000000, $alpha: 0.3);
+    margin-bottom: 30px;
+  }
+
+  .piano__card--container {
+    display: flex;
+    justify-content: center;
+    .piano__card--image {
+      width: 205px;
+      height: 166px;
+      margin-top: 15px;
+    }
+  }
+
+  .piano__card-bottom-line {
+    padding-top: 25px;
+    width: 100%;
+  }
+
+  .piano__card--content {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 28px;
+    // padding-right: 15px;
+    .piano__name--left {
+      font-size: 16px;
+      font-family: "Abril Fatface", cursive;
+    }
+    .piano-description--left {
+      display: flex;
+      align-items: center;
+      font-size: 12px;
+      padding: 10px 0px;
+      color: black;
+      margin: 0;
+      .black-bullet {
+        background-color: black;
+        border-radius: 50%;
+        height: 4px;
+        width: 4px;
+      }
+      li {
+        display: inline-block;
+        margin-right: 5px;
+      }
+    }
+  }
+
+  .shopping__bottom--info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .price__button--border {
+      border: 1px solid black;
+      border-radius: 10px;
+      padding: 5px 15px;
+      margin-right: 10px;
+    }
+    #shopping__cart--black {
+      background-color: black;
+      // display: flex;
+      padding: 5px;
+      border-radius: 5px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
+
+.button__bottom--black {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin: -140px;
+  .button__more--black {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 50px;
+    font-size: 14px;
+  }
+}
+// piano cards media queries
+
+@media (min-width: 600px) {
+  .piano__cards--subfather {
+    flex-direction: row;
+    .piano__card {
+      margin-bottom: 0;
+      .piano__card--container {
+        .piano__card--image {
+          margin-top: -83px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 600px) {
+  .piano__card--content {
+    padding-left: 15x;
+    padding-right: 15px;
+  }
+}
+@media (min-width: 600px) {
+  .cards__father--three {
+    .text-subheading {
+      width: 550px;
+      margin-bottom: 250px;
+    }
+  }
+}
+
+@media (min-width: 600px) {
+  .button__bottom--black {
+    display: flex;
+    justify-content: center;
+    margin: 140px;
+  }
+}
+
+// PARTNERS STYLES
+
+.partners__section--main {
+  background: linear-gradient(177.96deg, #6f6f6f 1.72%, #ffffff 98.63%);
+  padding-bottom: 100px;
+  h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 3px;
+    padding-bottom: 85px;
+  }
+}
+
+.button__partner--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .button__partner-top--center {
+    display: flex;
+    margin: 0px 40px;
+    padding-bottom: 57px;
+    .button__partner {
+      display: flex;
+      align-items: center;
+      max-width: 328px;
+      padding: 5px;
+      border-radius: 50px;
+      margin: 0 40px;
+      .button__partner--img {
+        height: 88px;
+      }
+      .button__partner-text {
+        margin: 0px 60px;
+      }
+    }
+  }
+  .button__partner-mid--center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 57px;
+    .button__partner {
+      display: flex;
+      align-items: center;
+      max-width: 328px;
+      padding: 5px;
+      border-radius: 50px;
+      margin: 0 80px;
+      .button__partner--img {
+        height: 88px;
+      }
+      .button__partner-text {
+        margin: 0px 55px;
+      }
+    }
+  }
+  .button__partner-bottom--center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .button__partner {
+      display: flex;
+      align-items: center;
+      max-width: 328px;
+      padding: 5px;
+      border-radius: 50px;
+      margin: 0 80px;
+      .button__partner--img {
+        height: 88px;
+      }
+      .button__partner-text {
+        margin: 0px 40px;
+      }
+    }
+    .button__partner--black-square {
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+  }
+}
